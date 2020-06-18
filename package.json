@@ -29,6 +29,14 @@
   },
   "bundleDependencies": false,
   "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "babel-jest": "^26.0.1",
+    "babel-plugin-tester": "^9.2.0",
+    "jest": "^26.0.1"
+  },
   "deprecated": false,
   "description": "Run it before @rob.j.qva/babel-plugin-debug! Then it inserts console.log(\"[ DEBUG line:\", <LINE>, \"file:\", \"<FILE> ]\", <ENTER or EXIT FUNCTION_NAME>)\" on all functions between __DEBUG_START and __DEBUG_END.",
   "keywords": [
@@ -47,7 +55,7 @@
   "main": "index.js",
   "name": "@rob.j.qva/babel-plugin-debug-functions",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --watch"
   },
   "version": "1.2.1"
 }

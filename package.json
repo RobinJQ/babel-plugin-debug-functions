@@ -39,6 +39,10 @@
     "plugin",
     "debug"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/RobinJQ/babel-plugin-debug-functions.git"
+  },
   "license": "ISC",
   "main": "index.js",
   "name": "@rob.j.qva/babel-plugin-debug-functions",

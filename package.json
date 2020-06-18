@@ -1,0 +1,49 @@
+{
+  "_from": "@rob.j.qva/babel-plugin-debug-functions",
+  "_id": "@rob.j.qva/babel-plugin-debug-functions@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-4Ccer3cJf+lbIEkccn3BYr1Cfs5Fmkc5ophLZ+EcBg6+rZUPZHsiFSzHtBIE0RxX77L2NL63dyAXKKxKr6QSJQ==",
+  "_location": "/@rob.j.qva/babel-plugin-debug-functions",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@rob.j.qva/babel-plugin-debug-functions",
+    "name": "@rob.j.qva/babel-plugin-debug-functions",
+    "escapedName": "@rob.j.qva%2fbabel-plugin-debug-functions",
+    "scope": "@rob.j.qva",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@rob.j.qva/babel-plugin-debug-functions/-/babel-plugin-debug-functions-1.0.3.tgz",
+  "_shasum": "19ec80574a229ebfbe8aa314429df3ac6068c149",
+  "_spec": "@rob.j.qva/babel-plugin-debug-functions",
+  "_where": "/home/robin/Develop/my_npm_modules",
+  "author": {
+    "name": "Robin Qvarfordt"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Run it before @rob.j.qva/babel-plugin-debug! Then it inserts console.log(\"[ DEBUG line:\", <LINE>, \"file:\", \"<FILE> ]\", <ENTER or EXIT FUNCTION_NAME>)\" on all functions between __DEBUG_START and __DEBUG_END.",
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "babel plugin",
+    "babelplugin",
+    "plugin",
+    "debug"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "@rob.j.qva/babel-plugin-debug-functions",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.2.0"
+}
